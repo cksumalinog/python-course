@@ -20,3 +20,8 @@ while num < 1 or num > 10:
     print(f"Number {num} does not exist in the range of numbers")
     num = int(input("Enter a # between 1-10: "))
 print(f"You number is {num}")
+grade = float(input("Enter your Grades: "))
+while grade < 75:
+    print("Enter a valid grade")
+    grade = float(input("Enter your Grades: "))
+print(f"Your grade {grade} is valid, you can now enroll.")
